@@ -28,6 +28,7 @@ class ofApp : public ofBaseApp{
     ofParameterGroup planetGroups;
     PlanetClass planet01;
     PlanetClass planet02;
+    PlanetClass planet03;
     
     
     

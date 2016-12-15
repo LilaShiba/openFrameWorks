@@ -5,10 +5,12 @@ void ofApp::setup(){
     ofBackground(120);
     planet01.setup();
     planet02.setup();
+    planet03.setup();
     
     
     planetGroups.add(planet01.planetGroup);
     planetGroups.add(planet02.planetGroup);
+    planetGroups.add(planet03.planetGroup);
 
     
     gui.setup(planetGroups);
@@ -20,6 +22,7 @@ void ofApp::setup(){
 void ofApp::update(){
     planet01.update();
     planet02.update();
+    planet03.update();
     
 
 }
@@ -32,6 +35,9 @@ void ofApp::draw(){
     
     ofTranslate(planet01. posX, planet01.posY);
     planet02.draw();
+    
+    ofTranslate(planet02. posX, planet02.posY);
+    planet03.draw();
 
 }
 
