@@ -13,8 +13,10 @@ class ofApp : public ofBaseApp{
         void mouseMoved(int x, int y );
     
     
-    float frequency;
-    float phase;
-    float amplitude;
+        float myArray[100];
+    
+        float frequency;
+        float phase;
+        float amplitude;
 				
 };
