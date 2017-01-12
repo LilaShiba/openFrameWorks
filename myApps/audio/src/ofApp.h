@@ -9,6 +9,7 @@ class ofApp : public ofBaseApp{
 		void update();
 		void draw();
         void exit();
+    
         void auidoOut(float* buffer, int bufferSize, int nChannels);
         void mouseMoved(int x, int y );
     
@@ -17,6 +18,7 @@ class ofApp : public ofBaseApp{
     
         float frequency;
         float phase;
+        float phaseInc;
         float amplitude;
 				
 };
